@@ -1,0 +1,326 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+  
+    
+    .row {
+        margin: 0 -5px;
+    }
+   
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+   
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+    
+    .container {
+        background-color: beige;
+    }
+    
+    .card {
+   
+        background-color: rgb(255, 40, 0);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Online Request</h4>
+                        <p class="card-text">Description</p>
+                        <a href="https://mlonlinerequest.mlhuillier1.com/OnlineRequestSystem/mlhuillier-philippines-online-request" class="btn btn-dark">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">HR Evaluation</h4>
+                        <p class="card-text">Description</p>
+                        <a href="https://hrmdweb.com/index.php#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">NonPO/PO</h4>
+                <p class="card-text">Description</p>
+                <a href="https://bos.mlhuillier1.com/NonPO/login.aspx" class="btn btn-warning">Learn More</a>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">SDP Ticket</h4>
+                <p class="card-text">Description</p>
+                <a href="http://supportcentre.mlhuillier.com/" class="btn btn-success">Learn More</a>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Training Tracker</h4>
+                <p class="card-text">Description</p>
+                <a href="https://docs.google.com/spreadsheets/d/1jeMly1fK0Q8PKZ2lzbFofuMOAD5zMV-B-Vs-RIwkFCw/edit#gid=1409286983" class="btn btn-danger">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Float four columns side by side */
+        
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+        /* Remove extra left and right margins, due to padding */
+        
+        .row {
+            margin: 0 -5px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Responsive columns */
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+        /* Style the counter cards */
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: rgb(255, 40, 0);
+            color: white;
+            height: 500px;
+        }
+        
+        .container {
+            padding-top: 5%;
+        }
+        
+        .bg1 {
+            background-image: url("https://i.ytimg.com/vi/eW9JINCU3Tc/maxresdefault.jpg");
+        }
+        /* .bg2 {
+            background-image: url("https://i.ytimg.com/vi/eW9JINCU3Tc/maxresdefault.jpg");
+        }
+        
+        .bg3 {
+            background-image: url("https://thumbs.dreamstime.com/z/autumn-road-19117657.jpg");
+        }
+        
+        .bg4 {
+            background-image: url("https://thumbs.dreamstime.com/z/autumn-forest-path-falling-red-leaves-34714003.jpg");
+        } */
+        
+        .text {
+            /* position: absolute; */
+            padding-top: 10%;
+            position: relative;
+            padding-bottom: 10%;
+            height: 45%;
+        }
+        
+        .text2 {
+            /* position: absolute; */
+            padding-top: 5%;
+            position: relative;
+            padding-bottom: 20%;
+            height: 45%;
+        }
+        
+        .text3 {
+            /* position: absolute; */
+            padding-top: 10%;
+            position: relative;
+            padding-bottom: 10%;
+            height: 22%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- //must finish on sept 9 -->
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/1.jpg" alt="Online Request">
+                    <h4>Online Request</h4>
+                    <p class="text">Request for office supplies, computer peripherals, toiletries, forms, equipment and more.</p>
+                    <button class="btn btn-secondary" onclick=" window.open('https://mlonlinerequest.mlhuillier1.com/OnlineRequestSystem/','_blank')"> Learn More</button>
+
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/2.jpg" alt="Evaluation">
+                    <h3>HR Evaluation</h3>
+                    <p class="text">Online Evaluation for employees and special evaluation for non regular</p>
+                    <a href="https://hrmdweb.com/index.php#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/3.jpg" alt="NonPO/PO">
+                    <h3>NonPO/PO</h3>
+                    <p class="text">Form to be fill-up in processing any kind of payment from suppliers and revolving funds</p>
+                    <a href="https://bos.mlhuillier1.com/NonPO/login.aspx" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/4.png" alt="SDP Ticket">
+                    <h3>SDP Ticket</h3>
+                    <p class="text">Assists customers who wants to resolve incidents quickly using tool's effectiveness</p>
+                    <a href="https://supportcentre.mlhuillier.com" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/55.png" alt="Tracker">
+                    <!-- <div class="text"> -->
+                    <h3>Training Tracker</h3>
+                    <p class="text">Trackers for certification and training attended and achieved by the employees of Technology Group </p>
+                    <a href="https://docs.google.com/spreadsheets/d/1jeMly1fK0Q8PKZ2lzbFofuMOAD5zMV-B-Vs-RIwkFCw/edit#gid=1409286983" class="btn btn-secondary">Learn More</a>
+                    <!-- </div> -->
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/66.png" alt="Goal">
+                    <!-- <div class="text"> -->
+                    <h4>Goal Management</h4>
+                    <p class="text">Setting goal helps guides your focus. Goals also help align employees focus and promote sense of self-mastery.</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1GlMA_YWLB7c0eLK4LFI2t4KGX0RGfoqCxXFG4iFr23o/edit?usp=sharing" class="btn btn-secondary">Learn More</a>
+                    <!-- </div> -->
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/77.png" alt="Udemy">
+                    <!-- <div class="text"> -->
+                    <h3>Udemy</h3><br>
+                    <p class="text">Create new possibilities for people and organizations by connecting them the knowledge and skills they need.</p>
+                    <a href="https://www.diontraining.com/udemy/" class="btn btn-secondary">Learn More</a>
+                    <!-- </div> -->
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card bg">
+                    <img src="./assets/88.png" alt="Org Chart">
+                    <!-- <div class="text"> -->
+                    <h3>Org Chart</h3><br>
+                    <p class="text">For updated organizational chart for Technology Group - Extension Office that was approved by the President</p>
+                    <!-- <a href=" https://drive.google.com/file/d/1fekk5xrscwPsQ2vsiCVSY8ik2hegwcso/view?usp=sharing" class="btn btn-secondary">Learn More</a>
+                    -->
+                    <a href="./assets/chart.png" class="btn btn-secondary">Learn More</a>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+
+
+
+<router-outlet></router-outlet>

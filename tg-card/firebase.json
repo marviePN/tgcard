@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist\\tg-card",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

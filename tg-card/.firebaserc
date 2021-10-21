@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tg-vacard-84cd5": {
+      "hosting": {
+        "tg-card": [
+          "tg-vacard-84cd5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tg-vacard-84cd5"
+  }
+}
